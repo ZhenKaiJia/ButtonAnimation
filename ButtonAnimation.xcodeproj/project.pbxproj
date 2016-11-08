@@ -17,6 +17,7 @@
 		773AB7EA1DD09DCB00DA007A /* ButtonAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AB7E91DD09DCB00DA007A /* ButtonAnimationUITests.m */; };
 		773AB7F91DD09E0200DA007A /* AnimationMeterial.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AB7F81DD09E0200DA007A /* AnimationMeterial.m */; };
 		773AB7FC1DD1690700DA007A /* DeformationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AB7FB1DD1690700DA007A /* DeformationButton.m */; };
+		773AB7FE1DD1E48300DA007A /* ButtonAnimation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 773AB7FD1DD1E48300DA007A /* ButtonAnimation.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		773AB7F81DD09E0200DA007A /* AnimationMeterial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationMeterial.m; sourceTree = "<group>"; };
 		773AB7FA1DD1690700DA007A /* DeformationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeformationButton.h; sourceTree = "<group>"; };
 		773AB7FB1DD1690700DA007A /* DeformationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeformationButton.m; sourceTree = "<group>"; };
+		773AB7FD1DD1E48300DA007A /* ButtonAnimation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ButtonAnimation.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		773AB7C41DD09DCB00DA007A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				773AB7FD1DD1E48300DA007A /* ButtonAnimation.gif */,
 				773AB7C51DD09DCB00DA007A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -259,6 +262,7 @@
 				773AB7D41DD09DCB00DA007A /* LaunchScreen.storyboard in Resources */,
 				773AB7D11DD09DCB00DA007A /* Assets.xcassets in Resources */,
 				773AB7CF1DD09DCB00DA007A /* Main.storyboard in Resources */,
+				773AB7FE1DD1E48300DA007A /* ButtonAnimation.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
