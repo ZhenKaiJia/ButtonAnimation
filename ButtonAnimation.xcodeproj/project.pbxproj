@@ -15,6 +15,8 @@
 		773AB7D41DD09DCB00DA007A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773AB7D21DD09DCB00DA007A /* LaunchScreen.storyboard */; };
 		773AB7DF1DD09DCB00DA007A /* ButtonAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AB7DE1DD09DCB00DA007A /* ButtonAnimationTests.m */; };
 		773AB7EA1DD09DCB00DA007A /* ButtonAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AB7E91DD09DCB00DA007A /* ButtonAnimationUITests.m */; };
+		773AB7F91DD09E0200DA007A /* AnimationMeterial.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AB7F81DD09E0200DA007A /* AnimationMeterial.m */; };
+		773AB7FC1DD1690700DA007A /* DeformationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AB7FB1DD1690700DA007A /* DeformationButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		773AB7E51DD09DCB00DA007A /* ButtonAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		773AB7E91DD09DCB00DA007A /* ButtonAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonAnimationUITests.m; sourceTree = "<group>"; };
 		773AB7EB1DD09DCB00DA007A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		773AB7F71DD09E0200DA007A /* AnimationMeterial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationMeterial.h; sourceTree = "<group>"; };
+		773AB7F81DD09E0200DA007A /* AnimationMeterial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationMeterial.m; sourceTree = "<group>"; };
+		773AB7FA1DD1690700DA007A /* DeformationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeformationButton.h; sourceTree = "<group>"; };
+		773AB7FB1DD1690700DA007A /* DeformationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeformationButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				773AB7C81DD09DCB00DA007A /* AppDelegate.m */,
 				773AB7CA1DD09DCB00DA007A /* ViewController.h */,
 				773AB7CB1DD09DCB00DA007A /* ViewController.m */,
+				773AB7FA1DD1690700DA007A /* DeformationButton.h */,
+				773AB7FB1DD1690700DA007A /* DeformationButton.m */,
+				773AB7F71DD09E0200DA007A /* AnimationMeterial.h */,
+				773AB7F81DD09E0200DA007A /* AnimationMeterial.m */,
 				773AB7CD1DD09DCB00DA007A /* Main.storyboard */,
 				773AB7D01DD09DCB00DA007A /* Assets.xcassets */,
 				773AB7D21DD09DCB00DA007A /* LaunchScreen.storyboard */,
@@ -274,8 +284,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				773AB7CC1DD09DCB00DA007A /* ViewController.m in Sources */,
+				773AB7F91DD09E0200DA007A /* AnimationMeterial.m in Sources */,
 				773AB7C91DD09DCB00DA007A /* AppDelegate.m in Sources */,
 				773AB7C61DD09DCB00DA007A /* main.m in Sources */,
+				773AB7FC1DD1690700DA007A /* DeformationButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +519,7 @@
 				773AB7F01DD09DCB00DA007A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		773AB7F11DD09DCB00DA007A /* Build configuration list for PBXNativeTarget "ButtonAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +528,7 @@
 				773AB7F31DD09DCB00DA007A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		773AB7F41DD09DCB00DA007A /* Build configuration list for PBXNativeTarget "ButtonAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +537,7 @@
 				773AB7F61DD09DCB00DA007A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
