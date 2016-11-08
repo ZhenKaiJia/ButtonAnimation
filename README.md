@@ -2,7 +2,7 @@
 
 
 ##效果图
-![macdown Screenshot](/Users/Memebox/Desktop/ButtonAnimation.gif)
+![](ButtonAnimation.gif)
 
 ##使用
 ```
