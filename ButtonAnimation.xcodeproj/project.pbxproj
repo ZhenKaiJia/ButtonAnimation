@@ -439,6 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shoujun Huang (3C9FKUDP23)";
 				DEVELOPMENT_TEAM = LY8K2TZTR9;
 				INFOPLIST_FILE = ButtonAnimation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
@@ -452,6 +453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shoujun Huang (LY8K2TZTR9)";
 				DEVELOPMENT_TEAM = LY8K2TZTR9;
 				INFOPLIST_FILE = ButtonAnimation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
